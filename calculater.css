@@ -1,0 +1,49 @@
+ *{
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+ }
+ .input{
+   height: 65px;
+   width: 290px;
+   background: black;
+   border: none;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   color: white;
+   font-size: 25px;
+   text-align: right;
+ }
+ .container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   height: 100vh;
+ }
+ button{
+   height: 72px;
+   width: 72px;
+   font-size: 20px;
+   border: none;
+   border-top: 2px solid gray;
+   border-right: 2px solid gray;
+   cursor: pointer;
+ }
+ .operator{
+   border-right: none;
+   background: orange;
+   color: white;
+ }
+ .key:hover{
+   background: gray;
+ }
+ .operator:hover{
+background: blue;
+ }
+ .C:hover{
+   background: red;
+ }
+ .E:hover{
+   background: green;
+ }
